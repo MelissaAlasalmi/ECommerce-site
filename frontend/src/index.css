@@ -87,7 +87,18 @@ button.block {
 /* Header */
 header a {
   color: #ffffff;
-  padding: 1rem;
+  padding: .5rem;
+}
+header a:hover {
+  color: #76B39D;
+}
+footer a {
+  color: #ffffff;
+  text-decoration: underline;
+  padding: .5rem;
+}
+footer a:hover {
+  color: #76B39D;
 }
 a.brand {
   color: #ffffff;
@@ -148,3 +159,23 @@ img.large {
   margin: 0.1rem;
 }
 
+/* Alert */
+.success {
+  color: #20a020;
+}
+.danger {
+  color: #a02020;
+}
+.alert {
+  padding: 1rem;
+  border: 0.1rem solid transparent;
+  border-radius: 0.5rem;
+}
+.alert-info {
+  color: #2020a0;
+  background-color: #e0e0ff;
+}
+.alert-danger {
+  color: #a02020;
+  background-color: #ffe0e0e0;
+}

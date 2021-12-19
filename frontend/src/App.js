@@ -24,7 +24,7 @@ function App() {
             <Route path="/" element={<HomeScreen />} exact></Route>
           </Routes>
         </main>
-        <footer className="row center">No rights reserved</footer>
+        <footer className="row center">Photos: <a href={'https://unsplash.com/@feeypflanzen'}>Severin Candrian</a> design lead at<a href={'https://feey.ch/'}>feey</a></footer>
       </div>
     </BrowserRouter>
   );

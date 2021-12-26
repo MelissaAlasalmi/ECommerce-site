@@ -1,7 +1,7 @@
-import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import HomeScreen from './screens/HomeScreen';
-import ProductScreen from './screens/ProductScreen';
+import React from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import HomeScreen from './screens/HomeScreen'
+import ProductScreen from './screens/ProductScreen'
 
 function App() {
   return (
@@ -24,10 +24,13 @@ function App() {
             <Route path="/" element={<HomeScreen />} exact></Route>
           </Routes>
         </main>
-        <footer className="row center">Photos: <a href={'https://unsplash.com/@feeypflanzen'}>Severin Candrian</a> design lead at<a href={'https://feey.ch/'}>feey</a></footer>
+        <footer className="row center">
+          Photos: <a href={'https://unsplash.com/@feeypflanzen'}>Severin Candrian</a> design lead at
+          <a href={'https://feey.ch/'}>feey</a>
+        </footer>
       </div>
     </BrowserRouter>
-  );
+  )
 }
 
-export default App;
+export default App

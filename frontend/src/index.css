@@ -10,7 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-#root{
+#root {
   height: 100%;
 }
 
@@ -27,7 +27,7 @@ body {
 }
 header {
   grid-area: header;
-  background-color: #155E63;
+  background-color: #155e63;
 }
 main {
   grid-area: main;
@@ -35,7 +35,7 @@ main {
 }
 footer {
   grid-area: footer;
-  background-color: #155E63;
+  background-color: #155e63;
   color: #ffffff;
 }
 
@@ -50,10 +50,10 @@ h2 {
 }
 a {
   text-decoration: none;
-  color: #76B39D;
+  color: #76b39d;
 }
 a:hover {
-  color: #155E63;
+  color: #155e63;
 }
 ul {
   padding: 0;
@@ -87,18 +87,18 @@ button.block {
 /* Header */
 header a {
   color: #ffffff;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 header a:hover {
-  color: #76B39D;
+  color: #76b39d;
 }
 footer a {
   color: #ffffff;
   text-decoration: underline;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 footer a:hover {
-  color: #76B39D;
+  color: #76b39d;
 }
 a.brand {
   color: #ffffff;

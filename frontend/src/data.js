@@ -144,6 +144,6 @@ const data = {
       countInStock: 0,
     },
   ],
-}
+};
 
-export default data
+export default data;
